@@ -28,7 +28,7 @@
         protected override void OnResume()
         {
             // Handle when your app resumes
-        } 
+        }
         #endregion
     }
 }
