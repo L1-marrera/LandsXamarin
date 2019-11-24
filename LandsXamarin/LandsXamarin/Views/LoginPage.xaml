@@ -55,10 +55,10 @@
                     Margin="40,0"
                     Orientation="Horizontal">
                     <Switch
-                    IsToggled="{Binding IsRemembered, Mode=TwoWay}"/>
+                        IsToggled="{Binding IsRemembered, Mode=TwoWay}"/>
                     <Label
-                    Text="Remember Me"
-                    VerticalTextAlignment="Center"/>
+                        Text="Remember Me"
+                        VerticalTextAlignment="Center"/>
                 </StackLayout>
                 <Label 
                     HorizontalOptions="Center"
@@ -68,12 +68,14 @@
                     BackgroundColor="Salmon"
                     Command="{Binding ValidateMeCommand}"
                     FontAttributes="Bold"
+                    IsEnabled="{Binding IsEnabled, Mode=TwoWay}"
                     Margin="40,0"
                     Text="Validate Me"
                     TextColor="White"/>
                 <Button 
                     BackgroundColor="Salmon"
                     FontAttributes="Bold"
+                    IsEnabled="{Binding IsEnabled, Mode=TwoWay}"
                     Margin="40,0"
                     Text="Register"
                     TextColor="White"/>
