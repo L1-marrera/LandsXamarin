@@ -32,7 +32,7 @@
             set { SetValue(ref this.isRunning, value); }
         }
         public bool IsRemembered { get; set; }
-        public bool IsEnabled 
+        public bool IsEnabled
         {
             get { return this.isEnabled; }
             set { SetValue(ref this.isEnabled, value); }
@@ -46,8 +46,8 @@
             this.IsEnabled = true;
 
             //Temporal
-            //this.Email = "ltest@gmail.com";
-            //this.Password = "LTest1";
+            this.Email = "ltest@gmail.com";
+            this.Password = "LTest1";
         }
         #endregion
 
