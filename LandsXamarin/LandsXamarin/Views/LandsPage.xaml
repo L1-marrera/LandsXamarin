@@ -4,7 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="LandsXamarin.Views.LandsPage"             
+             x:Class="LandsXamarin.Views.LandsPage"
              BindingContext="{Binding Main, Source={StaticResource Locator}}"
              Title="Lands">
     <ContentPage.Content>
@@ -29,13 +29,13 @@
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <!--<Frame
+                            <Frame
                                 CornerRadius="20"
                                 HasShadow="true"
-                                Margin="5">
+                                Margin="3">
                                 <Frame.GestureRecognizers>
                                     <TapGestureRecognizer Command="{Binding SelectLandCommand}"/>
-                                </Frame.GestureRecognizers>-->
+                                </Frame.GestureRecognizers>
                                 <Grid>
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="Auto"/>
@@ -68,7 +68,7 @@
                                         Source="ic_chevron_right">
                                     </Image>
                                 </Grid>
-                            <!--</Frame>-->
+                            </Frame>
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
